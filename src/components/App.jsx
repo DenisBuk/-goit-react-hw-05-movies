@@ -1,16 +1,12 @@
+import { lazy } from "react";
+import { Routes, Route } from "react-router-dom";
+import ShareLayout from "./SharedLayout";
+
+const Home = lazy(() => import('../pages/Home'));
+const Movie
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <></>
   );
 };
