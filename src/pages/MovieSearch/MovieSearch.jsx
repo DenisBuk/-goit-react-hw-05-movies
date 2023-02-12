@@ -62,7 +62,7 @@ const MovieSearch = () => {
             {showLoading && <Loading />}
             {movies && <MoviesList movies={movies} />}
 
-            { totalResultMovie === 0 && <div>Not found movies</div>}
+            {totalResultMovie === 0 && <div>Not found movies</div>}
         </>
     )
 };
