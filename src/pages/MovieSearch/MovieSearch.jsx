@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import * as API from '../../services/fetchMoviesApi';
 import Loading from "components/Loading/Loading";
 import MoviesList from "components/MoviesList/MoviesList";
-import styles from './MoviesSearch.module.scss';
+import styles from './MovieSearch.module.scss';
 
 const MovieSearch = () => {
     const [searchParams, setSearchParams] = useSearchParams();
