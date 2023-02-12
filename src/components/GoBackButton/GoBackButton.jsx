@@ -7,6 +7,7 @@ const GoBackButton = ({ backLinkHref }) => {
         <div className={ styles.container}>
             <Link to={backLinkHref} className={styles.link}>
                 <BsArrowLeftShort size={20} />
+                Go Back
             </Link> 
         </div>
     );
